@@ -9,6 +9,7 @@
 <div class="container body-content">
 
     <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
+    <h3><span th:text="${numberOfResults}"></span> Result(s)</h3>
 
     <div th:if="${items} and ${items.size()}">
 
